@@ -1,1 +1,1 @@
-# Countig-Vowels-Consonants
+# Counting-Vowels-Consonants
