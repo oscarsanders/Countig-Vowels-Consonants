@@ -1,5 +1,5 @@
-consonants = ["B","C","D","F","G","H","J","K","L",
-               "M","N","Ñ","P","Q","R","S","T","V","W","X","Y","Z"]
+#consonants = ["B","C","D","F","G","H","J","K","L",
+#               "M","N","Ñ","P","Q","R","S","T","V","W","X","Y","Z"]
 vowels = ["A","E","I","O","U"]
 
 word = input("Write the sentence: ").upper()
@@ -10,7 +10,7 @@ def check_word(any_word):
   num_letters = len(word)
   word_lst = list(any_word)
   for char in word_lst:
-    if char in consonants:
+    if char not in vowels:
       num_cons += 1
     elif char in vowels:
       num_vocals += 1
